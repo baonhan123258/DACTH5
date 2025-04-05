@@ -60,8 +60,8 @@
     <!-- CATER -->
     <section class="container cate-home" style="background-color: #ffffff; border-radius: 10px;">    
 
-        <div class="section-title pt-2" style="margin-bottom: 30px;">
-            <h4>Danh mục sản phẩm</h4>
+        <div class="section-title pt-2" style="text-align: center;">
+            <h4>Danh mục điện thoại</h4>
         </div>
         
         <div class="row g-1 mb-4 mt-2 pb-4">
@@ -174,40 +174,6 @@
 </section>
 
 
-<!-- Banner Section Begin -->
-<section class="banner set-bg" data-setbg="public/img/banner-fpt-1.png">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-7 col-lg-8 m-auto">
-                <div class="banner__slider owl-carousel">
-                    <div class="banner__item">
-                        <div class="banner__text">
-                            <span>Bộ sưu tập</span>
-                            <h1>Máy tính bảng</h1>
-                            <a href="cua-hang">Mua ngay</a>
-                        </div>
-                    </div>
-                    <div class="banner__item">
-                        <div class="banner__text">
-                            <span>Bộ sưu tập</span>
-                            <h1>Lap top</h1>
-                            <a href="cua-hang">Mua ngay</a>
-                        </div>
-                    </div>
-                    <div class="banner__item">
-                        <div class="banner__text">
-                            <span>Bộ sưu tập</span>
-                            <h1>Tivi</h1>
-                            <a href="cua-hang">Mua ngay</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Banner Section End -->
-
 <!-- Trend Section Begin -->
 <section class="trend spad">
     <div class="container">
@@ -315,48 +281,6 @@
     </div>
 </section>
 <!-- Trend Section End -->
-
-<!-- Discount Section Begin -->
-<section class="discount">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 p-0">
-                <div class="discount__pic">
-                    <img src="public/img/discount-2.jpg" alt="Hình ảnh">
-                </div>
-            </div>
-            <div class="col-lg-6 p-0">
-                <div class="discount__text">
-                    <div class="discount__text__title">
-                        <span>Khuyến mãi</span>
-                        <h2>Halloween</h2>
-                        <h5><span>Sale</span> 50%</h5>
-                    </div>
-                    <div class="discount__countdown" id="countdown-time">
-                        <div class="countdown__item">
-                            <span>22</span>
-                            <p>Ngày</p>
-                        </div>
-                        <div class="countdown__item">
-                            <span>18</span>
-                            <p>Giờ</p>
-                        </div>
-                        <div class="countdown__item">
-                            <span>46</span>
-                            <p>Phút</p>
-                        </div>
-                        <div class="countdown__item">
-                            <span>05</span>
-                            <p>Giây</p>
-                        </div>
-                    </div>
-                    <a href="#">Mua ngay</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Discount Section End -->
 
 <!-- Services Section Begin -->
 <section class="services spad">

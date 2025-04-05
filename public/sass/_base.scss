@@ -87,7 +87,6 @@ ol {
     font-weight: 600;
     text-transform: uppercase;
     position: relative;
-    display: inline-block;
 
     &:after {
       position: absolute;
@@ -96,7 +95,6 @@ ol {
       height: 2px;
       width: 70px;
       background: $primary-color;
-      content: "";
     }
   }
 }
