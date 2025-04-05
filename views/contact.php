@@ -24,7 +24,7 @@
                             <ul>
                                 <li>
                                     <h6><i class="fa fa-map-marker"></i> Địa chỉ</h6>
-                                    <p>Hẻm 51 đường 3/2 phường Xuân Khánh, Ninh Kiều, Cần Thơ</p>
+                                    <p>Trường Đại Học Công Nghệ TP.HCM</p>
                                 </li>
                                 <li>
                                     <h6><i class="fa fa-phone"></i> Sô điện thoại</h6>
