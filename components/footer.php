@@ -8,7 +8,6 @@
                 </div>
             </div>
         </div>
-        
         <div class="row">
             <div class="col-lg-12">
                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
