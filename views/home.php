@@ -14,15 +14,15 @@
                 <div id="header-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner" style="border-radius: 10px;">
                         <div class="carousel-item active" >
-                            <img class="img-fluid" src="public/img/banner-fpt-1.png" alt="Image">
+                            <img class="img-fluid" src="public/img/banner-iphone16.jpg" alt="Image">
                             
                         </div>
                         <div class="carousel-item" >
-                            <img class="img-fluid" src="public/img/banner-fpt-2.png" alt="Image">
+                            <img class="img-fluid" src="public/img/banner-samsungs25.jpg" alt="Image">
                             
                         </div>
                         <div class="carousel-item" >
-                            <img class="img-fluid" src="public/img/banner-fpt-1.png" alt="Image">
+                            <img class="img-fluid" src="public/img/banner-xiaomi14.png" alt="Image">
                             
                         </div>
                     </div>
@@ -36,16 +36,6 @@
                             <span class="carousel-control-next-icon mb-n2"></span>
                         </div>
                     </a>
-                    
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="product-offer" >
-                    <img class="img-fluid" src="public/img/banner-fpt-1.png" alt="">
-                    
-                </div>
-                <div class="product-offer">
-                    <img class="img-fluid" src="public/img/banner-fpt-2.png" alt="">
                     
                 </div>
             </div>
