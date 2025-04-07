@@ -13,18 +13,7 @@
     foreach ($listOrders as $value) {
         extract($value);
 
-        // Định dạng lại ngày đặt hàng
-        $formatted_date = $BaseModel->date_format($order_date, '');
-        $i++;
-        if($status == 1) {
-            $status = 'Chưa xác nhận';
-        }elseif($status == 2) {
-            $status = 'Đã xác nhận';
-        }elseif($status == 3) {
-            $status = 'Đang giao';
-        }elseif($status == 4) {
-            $status = 'Giao thành công';
-        }
+        
 
 
         $lineData = array($i, $full_name, $email, $user_phone, $formatted_date, $total, $status); 

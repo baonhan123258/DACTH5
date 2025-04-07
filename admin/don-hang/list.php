@@ -35,15 +35,7 @@
                         $i++;
                         $formatted_date = $BaseModel->date_format($order_date, '');
 
-                        //Trang thái đơn hàng
-                        $order_status = '<a href="" class="btn btn-small btn-danger">Chờ xác nhận</a>';
-                        if($status == 2) {
-                            $order_status = '<a href="" class="btn btn-small btn-warning">Đã xác nhận</a>';
-                        }elseif($status == 3) {
-                            $order_status = '<a href="" class="btn btn-small btn-success">Đang giao</a>';
-                        }elseif($status == 4) {
-                            $order_status = '<a href="" class="btn btn-small btn-success">Giao thành công</a>';
-                        }
+                        
                     ?>
                     <tr>
                         <td><?=$i?></td>
