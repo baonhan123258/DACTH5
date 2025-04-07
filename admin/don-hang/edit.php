@@ -9,15 +9,6 @@
         extract($value);
     }
 
-    //Trang thái đơn hàng
-    $order_status = 'Chưa xác nhận';
-    if($status == 2) {
-        $order_status = 'Đã xác nhận';
-    }elseif($status == 3) {
-        $order_status = 'Đang giao';
-    }elseif($status == 4) {
-        $order_status = 'Giao thành công';
-    }
 
     $date_formated = $BaseModel->date_format($order_date, '');
 
@@ -72,16 +63,7 @@
                             <?php
                                 function getStatusName($statusValue) {
                                     switch ($statusValue) {
-                                        case 1:
-                                            return 'Chờ xác nhận';
-                                        case 2:
-                                            return 'Đã xác nhận';
-                                        case 3:
-                                            return 'Đang giao';
-                                        case 4:
-                                            return 'Giao thành công';
-                                        default:
-                                            return 'Không xác định';
+                                        case "":
                                     }
                                 }
                             ?>

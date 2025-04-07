@@ -8,15 +8,7 @@
             extract($value);
         }
 
-        //Trang thái đơn hàng
-        $order_status = 'Chưa xác nhận';
-        if($status == 2) {
-            $order_status = 'Đã xác nhận';
-        }elseif($status == 3) {
-            $order_status = 'Đang giao';
-        }elseif($status == 4) {
-            $order_status = 'Giao thành công';
-        }
+        
 ?>
 
 <div class="breadcrumb-option">
@@ -48,23 +40,9 @@
                         
                     ?>
                     <div class="col text-black"> <strong>Thời gian đặt hàng:</strong> <br><?= $booking_date?></div>
-                    <div class="col text-black"> <strong>Thời gian giao ước tính:</strong> <br><?=$delivery_date?></div>
-                    <div class="col text-black"> <strong>Trạng thái:</strong> <br> <?=$order_status?> </div>
                     
                 </div>
             </article>
-            <div class="track">
-                <div class="step active"> <span class="icon"> <i class="fa fa-check text-black"></i> </span> <span class="text">Chờ xác nhận</span> </div>
-                <div class="step <?php if($status == 2 || $status == 3 || $status == 4) echo 'active'?>"> 
-                    <span class="icon"> <i class="fa fa-user text-black"></i> </span> 
-                    <span class="text text-black">Đã xác nhận</span> 
-                </div>
-                <div class="step <?php if($status == 3 || $status == 4) echo 'active'?>"> 
-                    <span class="icon"> <i class="fa fa-truck text-black"></i> </span> <span class="text text-black"> Trên đường giao </span> 
-                </div>
-                <div class="step <?php if($status == 4) echo 'active'?>"> 
-                    <span class="icon"> <i class="fa fa-check text-black"></i> </span> <span class="text text-black"> Giao thành công</span> 
-                </div>
             </div>
             <hr>
             <ul class="row">
